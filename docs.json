@@ -8,115 +8,121 @@
     "dark": "#1D4ED8"
   },
   "favicon": "/favicon.svg",
+
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Knowledgebase",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "how-to-use"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Telecom",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "telecom/introduction",
+              "telecom/oss",
+              "telecom/bss",
+              "telecom/emerging-tech"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Cybersecurity",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "cybersecurity/introduction",
+              "cybersecurity/industry-reports",
+              "cybersecurity/products"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Documentation & Writing",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "writing/introduction",
+              "writing/style-guide",
+              "writing/templates"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "APIs & Integrations",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api/introduction",
+              "api/examples",
+              "api/testing"
+            ]
+          },
+          {
+            "group": "Case Studies",
+            "pages": [
+              "case-studies/index",
+              "case-studies/telecom",
+              "case-studies/cybersecurity"
+            ]
+          },
+          {
+            "group": "Learning Paths",
+            "pages": [
+              "learning/index",
+              "learning/telecom",
+              "learning/cybersecurity"
             ]
           }
         ]
       }
     ],
+
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "GitHub",
+          "href": "https://github.com",
+          "icon": "github"
         }
       ]
     }
   },
+
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact",
+        "href": "mailto:paul@example.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Source",
+      "href": "https://github.com"
     }
   },
+
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
+
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
     }
   }
 }
