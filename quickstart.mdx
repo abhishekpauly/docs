@@ -1,80 +1,90 @@
 ---
 title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+description: "Start using this knowledgebase in minutes"
 ---
 
 ## Get started in three steps
 
-Get your documentation site running locally and make your first customization.
+A simple walkthrough to help you explore the telecom and cybersecurity sections and understand how this knowledgebase is organized.
 
-### Step 1: Set up your local environment
+### Step 1: Explore the core sections
 
 <AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
+  <Accordion icon="satellite-dish" title="Telecom fundamentals">
+    Start with OSS, BSS, and core network concepts.  
+    These pages cover how telecom systems operate, how networks are monitored, and how services are delivered.
     
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
+    Head to: `/telecom/introduction`
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
+
+  <Accordion icon="shield-halved" title="Cybersecurity basics">
+    Jump into threat overviews, security tooling, and incident patterns.  
+    This section gives you a grounded sense of how modern security operations work.
+
+    Head to: `/cybersecurity/introduction`
   </Accordion>
 </AccordionGroup>
 
-### Step 2: Deploy your changes
+### Step 2: Dive deeper into the specialized areas
 
 <AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
+  <Accordion icon="network-wired" title="OSS & BSS deep dives">
+    Break down the systems used for network operations, billing, customer management, and service delivery.  
+    These pages are structured for quick reference rather than vendor-style explanations.
     
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+    `/telecom/oss`  
+    `/telecom/bss`
+  </Accordion>
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+  <Accordion icon="signal" title="Emerging telecom technologies">
+    Explore 5G/6G, Open RAN, network automation, and cloud-native telco stacks — all explained simply and directly.
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
+    `/telecom/emerging-tech`
+  </Accordion>
+
+  <Accordion icon="chart-line" title="Cybersecurity reports & products">
+    Summaries of industry reports, tool evaluations, and practical notes on SIEM, SOAR, IAM, EDR, and more.
+
+    `/cybersecurity/industry-reports`  
+    `/cybersecurity/products`
   </Accordion>
 </AccordionGroup>
 
-### Step 3: Go live
+### Step 3: Use the supporting material
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
+<Accordion icon="book-open" title="Extras that help everything make sense">
+  Check out documentation tips, API examples, case studies, and learning paths that tie telecom and cybersecurity together.
+  
+  `/writing/introduction`  
+  `/api/introduction`  
+  `/case-studies`  
+  `/learning`
 </Accordion>
 
 ## Next steps
 
-Now that you have your docs running, explore these key features:
+Once you’ve gone through the main sections, these pages help you get even more value from the knowledgebase:
 
 <CardGroup cols={2}>
 
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
+<Card title="Writing & Docs" icon="pen-to-square" href="/writing/introduction">
+  Tips and structure for clear, concise technical documentation.
 </Card>
 
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
+<Card title="API Notes" icon="square-code" href="/api/introduction">
+  Call flows, sample API usage, and practical testing examples.
 </Card>
 
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
+<Card title="Case Studies" icon="book" href="/case-studies">
+  Real scenarios that link telecom and security concepts.
 </Card>
 
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
+<Card title="Learning Paths" icon="compass" href="/learning">
+  Curated resources if you want to build deeper expertise.
 </Card>
 
 </CardGroup>
 
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+  If anything feels unclear or you want a section expanded, just ask. This knowledgebase is designed to grow as needed.
 </Note>
